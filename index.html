@@ -1,0 +1,144 @@
+<h2 class="sr-only">สรุปยอดขาย Finn Thai & Koyo Ramen — มกราคม ถึง เมษายน 2026</h2>
+
+<style>
+  .db { font-family: var(--font-sans); padding: 0 0 2rem; }
+  .sec { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin: 1.5rem 0 0.75rem; }
+  .mg { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 1.5rem; }
+  .mc { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; }
+  .ml { font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px; }
+  .mv { font-size: 20px; font-weight: 500; color: var(--color-text-primary); margin: 0; }
+  .ms { font-size: 12px; margin: 2px 0 0; }
+  .up { color: #1D9E75; }
+  .dn { color: #E24B4A; }
+  .cw { position: relative; width: 100%; height: 260px; margin-bottom: 1.5rem; }
+  .lg { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 8px; font-size: 12px; color: var(--color-text-secondary); }
+  .lg span { display: flex; align-items: center; gap: 5px; }
+  .lsq { width: 10px; height: 10px; border-radius: 2px; }
+  .tbl { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+  .tbl th { text-align: left; padding: 6px 8px; color: var(--color-text-secondary); font-weight: 500; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .tbl td { padding: 6px 8px; border-bottom: 0.5px solid var(--color-border-tertiary); color: var(--color-text-primary); }
+  .tbl tr:last-child td { border-bottom: none; }
+  .tbl td:not(:first-child), .tbl th:not(:first-child) { text-align: right; }
+  .sl { font-weight: 500; }
+  .sr td:first-child { padding-left: 20px; color: var(--color-text-secondary); }
+  .tr td { font-weight: 500; border-top: 0.5px solid var(--color-border-secondary); }
+</style>
+
+<div class="db">
+
+  <div class="sec">ภาพรวม ม.ค.–เม.ย. 2026</div>
+  <div class="mg">
+    <div class="mc">
+      <p class="ml">รวม 4 เดือน</p>
+      <p class="mv">$159,361</p>
+      <p class="ms" style="color:var(--color-text-secondary);">ม.ค.–เม.ย.</p>
+    </div>
+    <div class="mc">
+      <p class="ml">Finn Thai รวม 4 เดือน</p>
+      <p class="mv">$103,563</p>
+      <p class="ms" style="color:var(--color-text-secondary);">2,346 orders</p>
+    </div>
+    <div class="mc">
+      <p class="ml">Koyo Ramen รวม 4 เดือน</p>
+      <p class="mv">$55,796</p>
+      <p class="ms" style="color:var(--color-text-secondary);">1,348 orders</p>
+    </div>
+    <div class="mc">
+      <p class="ml">เม.ย. vs มี.ค.</p>
+      <p class="mv">$42,340</p>
+      <p class="ms dn">-0.9% MoM</p>
+    </div>
+  </div>
+
+  <div class="sec">รายได้รายเดือน — Finn Thai vs Koyo Ramen</div>
+  <div class="lg">
+    <span><span class="lsq" style="background:#378ADD;"></span>Finn Thai</span>
+    <span><span class="lsq" style="background:#1D9E75;"></span>Koyo Ramen</span>
+  </div>
+  <div class="cw">
+    <canvas id="c1" role="img" aria-label="ยอดขายรายเดือน Finn Thai และ Koyo Ramen ม.ค.–เม.ย. 2026">Finn Thai: ม.ค. $25,424 ก.พ. $23,656 มี.ค. $26,468 เม.ย. $28,018 | Koyo Ramen: ม.ค. $11,241 ก.พ. $13,990 มี.ค. $16,243 เม.ย. $14,322</canvas>
+  </div>
+
+  <div class="sec">DoorDash vs UberEATS — Finn Thai</div>
+  <div class="lg">
+    <span><span class="lsq" style="background:#D85A30;"></span>DoorDash</span>
+    <span><span class="lsq" style="background:#7F77DD;"></span>UberEATS</span>
+  </div>
+  <div class="cw">
+    <canvas id="c2" role="img" aria-label="Finn Thai DoorDash vs UberEATS ม.ค.–เม.ย.">DoorDash: ม.ค. $19,202 ก.พ. $18,789 มี.ค. $19,358 เม.ย. $21,945 | UberEATS: ม.ค. $6,222 ก.พ. $4,867 มี.ค. $7,110 เม.ย. $6,073</canvas>
+  </div>
+
+  <div class="sec">DoorDash vs UberEATS — Koyo Ramen</div>
+  <div class="lg">
+    <span><span class="lsq" style="background:#D85A30;"></span>DoorDash</span>
+    <span><span class="lsq" style="background:#7F77DD;"></span>UberEATS</span>
+  </div>
+  <div class="cw">
+    <canvas id="c3" role="img" aria-label="Koyo Ramen DoorDash vs UberEATS ม.ค.–เม.ย.">DoorDash: ม.ค. $6,282 ก.พ. $9,042 มี.ค. $9,969 เม.ย. $8,612 | UberEATS: ม.ค. $4,959 ก.พ. $4,948 มี.ค. $6,275 เม.ย. $5,710</canvas>
+  </div>
+
+  <div class="sec">ตารางสรุปรายเดือน</div>
+  <table class="tbl">
+    <thead>
+      <tr>
+        <th style="width:38%">ร้าน / แพลตฟอร์ม</th>
+        <th>ม.ค.</th>
+        <th>ก.พ.</th>
+        <th>มี.ค.</th>
+        <th>เม.ย.</th>
+        <th>เม.ย. vs มี.ค.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="sl">Finn Thai รวม</td><td>$25,424</td><td>$23,656</td><td>$26,468</td><td>$28,018</td><td class="up">+5.9%</td></tr>
+      <tr class="sr"><td>DoorDash</td><td>$19,202</td><td>$18,789</td><td>$19,358</td><td>$21,945</td><td class="up">+13.4%</td></tr>
+      <tr class="sr"><td>UberEATS</td><td>$6,222</td><td>$4,867</td><td>$7,110</td><td>$6,073</td><td class="dn">-14.6%</td></tr>
+      <tr><td class="sl">Koyo Ramen รวม</td><td>$11,241</td><td>$13,990</td><td>$16,243</td><td>$14,322</td><td class="dn">-11.8%</td></tr>
+      <tr class="sr"><td>DoorDash</td><td>$6,282</td><td>$9,042</td><td>$9,969</td><td>$8,612</td><td class="dn">-13.6%</td></tr>
+      <tr class="sr"><td>UberEATS</td><td>$4,959</td><td>$4,948</td><td>$6,275</td><td>$5,710</td><td class="dn">-9.0%</td></tr>
+      <tr class="tr"><td>รวมทั้งหมด</td><td>$36,664</td><td>$37,646</td><td>$42,711</td><td>$42,340</td><td class="dn">-0.9%</td></tr>
+    </tbody>
+  </table>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const months = ['ม.ค.','ก.พ.','มี.ค.','เม.ย.'];
+const baseOpts = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { display: false } },
+  scales: {
+    x: { ticks: { color: '#888780', font: { size: 12 }, autoSkip: false }, grid: { display: false } },
+    y: { ticks: { color: '#888780', font: { size: 11 }, callback: v => '$' + (v/1000).toFixed(0) + 'k' }, grid: { color: 'rgba(136,135,128,0.15)' } }
+  }
+};
+
+new Chart(document.getElementById('c1'), {
+  type: 'bar',
+  data: { labels: months, datasets: [
+    { label: 'Finn Thai', data: [25423.50, 23656, 26467.50, 28018], backgroundColor: '#378ADD' },
+    { label: 'Koyo Ramen', data: [11240.85, 13990.05, 16243.40, 14322], backgroundColor: '#1D9E75' }
+  ]},
+  options: baseOpts
+});
+
+new Chart(document.getElementById('c2'), {
+  type: 'bar',
+  data: { labels: months, datasets: [
+    { label: 'DoorDash', data: [19201.50, 18789, 19357.50, 21944.50], backgroundColor: '#D85A30' },
+    { label: 'UberEATS', data: [6222, 4867, 7110, 6073], backgroundColor: '#7F77DD' }
+  ]},
+  options: baseOpts
+});
+
+new Chart(document.getElementById('c3'), {
+  type: 'bar',
+  data: { labels: months, datasets: [
+    { label: 'DoorDash', data: [6281.85, 9042.05, 9968.60, 8612.30], backgroundColor: '#D85A30' },
+    { label: 'UberEATS', data: [4959, 4948, 6274.80, 5710], backgroundColor: '#7F77DD' }
+  ]},
+  options: baseOpts
+});
+</script>
